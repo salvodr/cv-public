@@ -146,7 +146,7 @@ content:
         title: Python
         additional_links:
           - title: Python
-            icon: fa-brands fa-python
+            icon: fab fa-python
       
   - title: Skills (old)
     layout: text
