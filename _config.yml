@@ -1,5 +1,6 @@
 # Site
-repository: sproogen/resume-theme
+repository: github.com/salvodr/cv-public
+# repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -125,7 +126,7 @@ content:
         title: School of Oriental and African Studies (London, United Kingdom)
         caption: 2008 - 2010
         sub_title: Master of Arts with Merit in Critical Media and Cultural Studies
-        quote: >
+        # quote: >
           
         # description: | # this will include new lines to allow paragraphs
         #   Master of Arts with Merit in Critical Media and Cultural Studies.
@@ -133,14 +134,21 @@ content:
         title: University of Catania (Catania, Italy)
         caption: 2003 - 2008
         sub_title: Bachelor of Arts with 110/110 cum laude in Comparative Studies
-        quote: >
+        # quote: >
           
         # description: | # this will include new lines to allow paragraphs
         #   English language and literature, French language and literature, Arabic language and literature.
 
-  - title: Skills
+  - title: Skills (test)
+    layout: list
+    content: 
+      - layout: left
+        title: Python
+        icon: fa-brands fa-python
+      
+  - title: Skills (old)
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: | # this will include new lines to allow paragraphs 
       - Python
         + pandas
         + flask
