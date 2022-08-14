@@ -152,12 +152,12 @@ content:
         - HTML/CSS
         - Git
     
-    - title: Languages
-      layout: text
-      content: | # this will include new lines to allow paragraphs
-        - English
-        - Italian
-        - French
+  - title: Languages
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - English
+      - Italian
+      - French
 
   # - title: A Little More About Me
   #   layout: text
