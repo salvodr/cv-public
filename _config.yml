@@ -89,24 +89,24 @@ content:
             - facilitated many RPA bootcamps for over 300 people
             - worked on automations dealing with SAP, web scraping, Lotus Notes, databases and APIs
             - took charge of 1/3 of major web application in our team (tasks revolving around data migration and database with occasional excursions in Node.js backend):
-            + refactored 6 data migration robots from Blue Prism/Java to Python
-            + redesigned said robots and created new ones to keep up with requirements of on-going releases
-            + worked on continous improvement of efficiency/performance to cope with ever-increasing size of data being ingested
-            + creation, fine-tuning and maintenance of tables, views and stored procedures to return data for reports backend and frontend consumption
-            + created complex queries with JOINs and GROUP BYs to return salient data about resources and cost rates
+              + refactored 6 data migration robots from Blue Prism/Java to Python
+              + redesigned said robots and created new ones to keep up with requirements of on-going releases
+              + worked on continous improvement of efficiency/performance to cope with ever-increasing size of data being ingested
+              + creation, fine-tuning and maintenance of tables, views and stored procedures to return data for reports backend and frontend consumption
+              + created complex queries with JOINs and GROUP BYs to return salient data about resources and cost rates
       - layout: left
         title: IBM International Services, Bratislava
         link: ibm.com
         # link_text: boringcompany.com
         sub_title: TSS ESA Contract Manager BeLux
         caption: June 2016 - December 2019
-      - layout: left
+      - layout: center
         title: WaveMetrix Ltd, London
         link: wavemetrix.com
         # link_text: boringcompany.com
         sub_title: Research Analyst, Research Excutive
         caption: August 2011 - June 2016
-      - layout: left
+      - layout: right
         title: Russian Presidential Academy of National Economy and Public Administration, Moscow
         link: ranepa.ru
         # link_text: boringcompany.com
