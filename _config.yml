@@ -144,7 +144,7 @@ content:
     content: 
       - layout: left
         title: Python
-          additional_links:
+        additional_links:
           - title: Python
             icon: fa-brands fa-python
       
