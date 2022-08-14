@@ -144,9 +144,10 @@ content:
     content: 
       - layout: left
         title: Python
-        additional_links:
-          - title: Python
-            icon: fab fa-python
+        icon: fab fa-python
+        # additional_links:
+        #   - title: Python
+        #     icon: fab fa-python
       
   - title: Skills (old)
     layout: text
