@@ -64,7 +64,7 @@ content:
         link: github.com/salvodr
         # link_text: Project Website
         additional_links:
-          - title:  Lorem Ipsum
+          - title: Lorem Ipsum
             icon: fab fa-github
             url: github.com/salvodr
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -144,7 +144,9 @@ content:
     content: 
       - layout: left
         title: Python
-        icon: fa-brands fa-python
+          additional_links:
+          - title: Python
+            icon: fa-brands fa-python
       
   - title: Skills (old)
     layout: text
