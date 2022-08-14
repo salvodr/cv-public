@@ -138,19 +138,19 @@ content:
           English language and literature, French language and literature, Arabic language and literature.
 
   - title: Skils
-      layout: text
-      content: | # this will include new lines to allow paragraphs
-        - Python
-          + pandas
-          + flask
-          + selenium
-          + pytest
-        - SQL
-        - Docker
-        - Blue Prism
-        - JavaScript
-        - HTML/CSS
-        - Git
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Python
+        + pandas
+        + flask
+        + selenium
+        + pytest
+      - SQL
+      - Docker
+      - Blue Prism
+      - JavaScript
+      - HTML/CSS
+      - Git
     
   - title: Languages
     layout: text
