@@ -48,10 +48,10 @@ linkedin_username: salvo-di-rosa
 # about_title: About Me
 about_profile_image: images/foto1-05.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Salvatore (or Salvo for short) and I'm an Application Developer.
-  I thrive when facing new challenges as well as working in a team environment. 
-  On a personal level, I'm driven by change, possibilities and continous learning that come with it.
-  On a team level, I believe in open communication and working towards creating a better work environment.
+  Hi, my name is Salvatore (or Salvo for short) and I'm an Application Developer.<br>
+  I thrive when facing new challenges as well as working in a team environment.<br>
+  On a personal level, I'm driven by change, possibilities and continous learning that come with it.<br>
+  On a team level, I believe in open communication and working towards creating a better work environment.<br>
 
 content:
   - title: Projects # Title for the section
@@ -83,7 +83,7 @@ content:
         sub_title: RPA/Application developer
         caption: January 2020 - Present
         quote: >
-          TBD
+          
         description: | # this will include new lines to allow paragraphs
             - refactored existing automations from Blue Prism to Python
             - facilitated many RPA bootcamps for over 300 people
@@ -94,19 +94,19 @@ content:
               + worked on continous improvement of efficiency/performance to cope with ever-increasing size of data being ingested
               + creation, fine-tuning and maintenance of tables, views and stored procedures to return data for reports backend and frontend consumption
               + created complex queries with JOINs and GROUP BYs to return salient data about resources and cost rates
-      - layout: left
+      - layout: top-middle
         title: IBM International Services, Bratislava
         link: ibm.com
         # link_text: boringcompany.com
         sub_title: TSS ESA Contract Manager BeLux
         caption: June 2016 - December 2019
-      - layout: center
+      - layout: top-middle
         title: WaveMetrix Ltd, London
         link: wavemetrix.com
         # link_text: boringcompany.com
         sub_title: Research Analyst, Research Excutive
         caption: August 2011 - June 2016
-      - layout: right
+      - layout: top-middle
         title: Russian Presidential Academy of National Economy and Public Administration, Moscow
         link: ranepa.ru
         # link_text: boringcompany.com
