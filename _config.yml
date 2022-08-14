@@ -85,6 +85,7 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
+            <br><br>Placeholder line to be replaced with short description
             - refactored existing automations from Blue Prism to Python
             - facilitated many RPA bootcamps for over 300 people
             - worked on automations dealing with SAP, web scraping, Lotus Notes, databases and APIs
@@ -95,50 +96,80 @@ content:
               + creation, fine-tuning and maintenance of tables, views and stored procedures to return data for reports backend and frontend consumption
               + created complex queries with JOINs and GROUP BYs to return salient data about resources and cost rates
       - layout: top-middle
-        title: IBM International Services, Bratislava
-        link: ibm.com
-        # link_text: boringcompany.com
-        sub_title: TSS ESA Contract Manager BeLux
-        caption: June 2016 - December 2019
-      - layout: top-middle
-        title: WaveMetrix Ltd, London
-        link: wavemetrix.com
-        # link_text: boringcompany.com
-        sub_title: Research Analyst, Research Excutive
-        caption: August 2011 - June 2016
-      - layout: top-middle
-        title: Russian Presidential Academy of National Economy and Public Administration, Moscow
-        link: ranepa.ru
-        # link_text: boringcompany.com
-        sub_title: Lecturer (Course on Project Management)
-        caption: October 2015 - December 2015
+        sub_title: Please see my LinkedIn <a href="https://www.linkedin.com/in/salvo-di-rosa/">profile</a> for full work history.
+      # - layout: top-middle
+      #   title: IBM International Services, Bratislava
+      #   link: ibm.com
+      #   # link_text: boringcompany.com
+      #   sub_title: TSS ESA Contract Manager BeLux
+      #   caption: June 2016 - December 2019
+      # - layout: top-middle
+      #   title: WaveMetrix Ltd, London
+      #   link: wavemetrix.com
+      #   # link_text: boringcompany.com
+      #   sub_title: Research Analyst, Research Excutive
+      #   caption: August 2011 - June 2016
+      # - layout: top-middle
+      #   title: Russian Presidential Academy of National Economy and Public Administration, Moscow
+      #   link: ranepa.ru
+      #   # link_text: boringcompany.com
+      #   sub_title: Lecturer (Course on Project Management)
+      #   caption: October 2015 - December 2015
         
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: School of Oriental and African Studies (London, United Kingdom)
+        caption: 2008 - 2010
+        sub_title: Master of Arts with Merit in Critical Media and Cultural Studies
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          Master of Arts with Merit in Critical Media and Cultural Studies.
+      - layout: left
+        title: University of Catania (Catania, Italy)
+        caption: 2003 - 2008
+        sub_title: Bachelor of Arts with 110/110 cum laude in Comparative Studies
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          English language and literature, French language and literature, Arabic language and literature.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  - title: Skils
+      layout: text
+      content: | # this will include new lines to allow paragraphs
+        - Python
+          + pandas
+          + flask
+          + selenium
+          + pytest
+        - SQL
+        - Docker
+        - Blue Prism
+        - JavaScript
+        - HTML/CSS
+        - Git
+    
+    - title: Languages
+      layout: text
+      content: | # this will include new lines to allow paragraphs
+        - English
+        - Italian
+        - French
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  #     Look at this cool image  
+  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
