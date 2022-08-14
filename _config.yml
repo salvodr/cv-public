@@ -9,7 +9,7 @@ version: 2
 name: Salvatore Di Rosa
 title: Application Developer
 email: salvodr01@gmail.com
-website: www.salvodr.github.io
+# website: www.salvodr.github.io
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -48,7 +48,8 @@ linkedin_username: salvo-di-rosa
 # about_title: About Me
 about_profile_image: images/foto1-05.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Salvatore (or Salvo for short) and I'm an Application Developer.<br>
+  Hi, my name is Salvatore (or Salvo for short) and I'm an Application Developer.
+
   I thrive when facing new challenges as well as working in a team environment.<br>
   On a personal level, I'm driven by change, possibilities and continous learning that come with it.<br>
   On a team level, I believe in open communication and working towards creating a better work environment.<br>
@@ -58,20 +59,20 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Lorem Ipsum
+        link: github.com/salvodr
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  Lorem Ipsum
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/salvodr
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean neque.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis blandit felis. Suspendisse mauris velit, efficitur et nisl eu, dapibus pretium massa. In varius malesuada consectetur. Nam leo purus, imperdiet eget mi id, sagittis convallis sem. Mauris id mi tempor, auctor nibh eget, tempor libero. Maecenas vitae iaculis nisi, eget suscipit nisl. Curabitur scelerisque quis nisi eu luctus. Vivamus lectus dolor, tristique a egestas non, sodales a dolor. Morbi consectetur tristique diam quis mattis. 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -85,7 +86,7 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-            <br><br>Placeholder line to be replaced with short description
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean neque.
             - refactored existing automations from Blue Prism to Python
             - facilitated many RPA bootcamps for over 300 people
             - worked on automations dealing with SAP, web scraping, Lotus Notes, databases and APIs
@@ -120,24 +121,24 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: School of Oriental and African Studies (London, United Kingdom)
         caption: 2008 - 2010
         sub_title: Master of Arts with Merit in Critical Media and Cultural Studies
         quote: >
           
-        description: | # this will include new lines to allow paragraphs
-          Master of Arts with Merit in Critical Media and Cultural Studies.
-      - layout: left
+        # description: | # this will include new lines to allow paragraphs
+        #   Master of Arts with Merit in Critical Media and Cultural Studies.
+      - layout: top-middle
         title: University of Catania (Catania, Italy)
         caption: 2003 - 2008
         sub_title: Bachelor of Arts with 110/110 cum laude in Comparative Studies
         quote: >
           
-        description: | # this will include new lines to allow paragraphs
-          English language and literature, French language and literature, Arabic language and literature.
+        # description: | # this will include new lines to allow paragraphs
+        #   English language and literature, French language and literature, Arabic language and literature.
 
-  - title: Skils
+  - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
       - Python
