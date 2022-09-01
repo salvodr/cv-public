@@ -1,0 +1,198 @@
+# Site
+repository: github.com/salvodr/cv-public
+# repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Salvatore Di Rosa
+title: Application Developer
+email: salvodr01+dev@gmail.com
+# website: www.salvodr.github.io
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+# twitter_username: facespics
+github_username:  salvodr
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: salvo-di-rosa
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/foto1-05.png
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Salvatore (or Salvo for short) and I'm an Application Developer.
+
+  I thrive facing new challenges as well as working in a team.<br>
+  I am driven by change, possibilities and continous learning that come with it.<br>
+  I believe in open communication, mutual enrichment that comes with sharing<br>
+  experiences and working towards creating a better work environment.<br>
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Lorem Ipsum
+        link: github.com/salvodr
+        # link_text: Project Website
+        additional_links:
+          - title: Lorem Ipsum
+            icon: fab fa-github
+            url: github.com/salvodr
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean neque.
+        description: | # this will include new lines to allow paragraphs
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis blandit felis. Suspendisse mauris velit, efficitur et nisl eu, dapibus pretium massa. In varius malesuada consectetur. Nam leo purus, imperdiet eget mi id, sagittis convallis sem. Mauris id mi tempor, auctor nibh eget, tempor libero. Maecenas vitae iaculis nisi, eget suscipit nisl. Curabitur scelerisque quis nisi eu luctus. Vivamus lectus dolor, tristique a egestas non, sodales a dolor. Morbi consectetur tristique diam quis mattis. 
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: IBM International Services, Bratislava
+        link: ibm.com
+        # link_text: boringcompany.com
+        sub_title: RPA/Application developer
+        caption: January 2020 - Present
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean neque.
+            - Refactored existing automations from Blue Prism to Python
+            - Facilitated several RPA bootcamps for over 300 participants
+            - Worked on automations dealing with SAP, web scraping, Lotus Notes, databases and APIs
+            - Took charge of 1/3 of a major web application in our team (tasks revolving around data migration and database with occasional excursions in Node.js backend):
+              + Refactored 6 data migration robots from Blue Prism/Java to Python
+              + Redesigned said robots and created new ones to keep up with evolving requirements of on-going releases
+              + Worked on continous improvement of efficiency/performance to cope with ever-increasing size of data being ingested
+              + Creation, fine-tuning and maintenance of tables, views and stored procedures to return data for reports aimed for backend and frontend consumption
+              + Created complex queries with JOINs and GROUP BYs to return salient data about forecast, resources and cost rates
+      - layout: top-middle
+        sub_title: Please see my LinkedIn <a href="https://www.linkedin.com/in/salvo-di-rosa/">profile</a> for full work history.
+      # - layout: top-middle
+      #   title: IBM International Services, Bratislava
+      #   link: ibm.com
+      #   # link_text: boringcompany.com
+      #   sub_title: TSS ESA Contract Manager BeLux
+      #   caption: June 2016 - December 2019
+      # - layout: top-middle
+      #   title: WaveMetrix Ltd, London
+      #   link: wavemetrix.com
+      #   # link_text: boringcompany.com
+      #   sub_title: Research Analyst, Research Excutive
+      #   caption: August 2011 - June 2016
+      # - layout: top-middle
+      #   title: Russian Presidential Academy of National Economy and Public Administration, Moscow
+      #   link: ranepa.ru
+      #   # link_text: boringcompany.com
+      #   sub_title: Lecturer (Course on Project Management)
+      #   caption: October 2015 - December 2015
+        
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: School of Oriental and African Studies (London, United Kingdom)
+        caption: 2008 - 2010
+        sub_title: Master of Arts with Merit in Critical Media and Cultural Studies
+        # quote: >
+          
+        # description: | # this will include new lines to allow paragraphs
+        #   Master of Arts with Merit in Critical Media and Cultural Studies.
+      - layout: top-middle
+        title: University of Catania (Catania, Italy)
+        caption: 2003 - 2008
+        sub_title: Bachelor of Arts with 110/110 cum laude in Comparative Studies
+        # quote: >
+          
+        # description: | # this will include new lines to allow paragraphs
+        #   English language and literature, French language and literature, Arabic language and literature.
+
+  # - title: Skills (test)
+  #   layout: list
+  #   content: 
+  #     - layout: left
+  #       title: Python
+  #       icon: fab fa-python
+  #       # additional_links:
+  #       #   - title: Python
+  #       #     icon: fab fa-python
+      
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs 
+      - Python
+        + pandas
+        + flask
+        + selenium
+      - SQL and RDBMS (DB2)
+      - Docker
+      - Blue Prism
+      - JavaScript
+      - HTML/CSS
+      - Git
+    
+  - title: Languages
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - English
+      - Italian
+      - French
+
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+  #     Look at this cool image  
+  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
