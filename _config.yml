@@ -9,7 +9,7 @@ version: 2
 # Personal info
 name: Salvatore Di Rosa
 title: Application Developer
-email: salvodr01@gmail.com
+email: salvodr01+dev@gmail.com
 # website: www.salvodr.github.io
 
 # Dark Mode (true/false/never)
@@ -51,9 +51,10 @@ about_profile_image: images/foto1-05.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Salvatore (or Salvo for short) and I'm an Application Developer.
 
-  I thrive when facing new challenges as well as working in a team environment.<br>
-  On a personal level, I'm driven by change, possibilities and continous learning that come with it.<br>
-  On a team level, I believe in open communication and working towards creating a better work environment.<br>
+  I thrive facing new challenges as well as working in a team.<br>
+  I am driven by change, possibilities and continous learning that come with it.<br>
+  I believe in open communication, mutual enrichment that comes with sharing<br>
+  experiences and working towards creating a better work environment.<br>
 
 content:
   - title: Projects # Title for the section
@@ -88,15 +89,15 @@ content:
           
         description: | # this will include new lines to allow paragraphs
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean neque.
-            - refactored existing automations from Blue Prism to Python
-            - facilitated many RPA bootcamps for over 300 people
-            - worked on automations dealing with SAP, web scraping, Lotus Notes, databases and APIs
-            - took charge of 1/3 of major web application in our team (tasks revolving around data migration and database with occasional excursions in Node.js backend):
-              + refactored 6 data migration robots from Blue Prism/Java to Python
-              + redesigned said robots and created new ones to keep up with requirements of on-going releases
-              + worked on continous improvement of efficiency/performance to cope with ever-increasing size of data being ingested
-              + creation, fine-tuning and maintenance of tables, views and stored procedures to return data for reports backend and frontend consumption
-              + created complex queries with JOINs and GROUP BYs to return salient data about resources and cost rates
+            - Refactored existing automations from Blue Prism to Python
+            - Facilitated several RPA bootcamps for over 300 participants
+            - Worked on automations dealing with SAP, web scraping, Lotus Notes, databases and APIs
+            - Took charge of 1/3 of a major web application in our team (tasks revolving around data migration and database with occasional excursions in Node.js backend):
+              + Refactored 6 data migration robots from Blue Prism/Java to Python
+              + Redesigned said robots and created new ones to keep up with evolving requirements of on-going releases
+              + Worked on continous improvement of efficiency/performance to cope with ever-increasing size of data being ingested
+              + Creation, fine-tuning and maintenance of tables, views and stored procedures to return data for reports aimed for backend and frontend consumption
+              + Created complex queries with JOINs and GROUP BYs to return salient data about forecast, resources and cost rates
       - layout: top-middle
         sub_title: Please see my LinkedIn <a href="https://www.linkedin.com/in/salvo-di-rosa/">profile</a> for full work history.
       # - layout: top-middle
@@ -139,25 +140,24 @@ content:
         # description: | # this will include new lines to allow paragraphs
         #   English language and literature, French language and literature, Arabic language and literature.
 
-  - title: Skills (test)
-    layout: list
-    content: 
-      - layout: left
-        title: Python
-        icon: fab fa-python
-        # additional_links:
-        #   - title: Python
-        #     icon: fab fa-python
+  # - title: Skills (test)
+  #   layout: list
+  #   content: 
+  #     - layout: left
+  #       title: Python
+  #       icon: fab fa-python
+  #       # additional_links:
+  #       #   - title: Python
+  #       #     icon: fab fa-python
       
-  - title: Skills (old)
+  - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs 
       - Python
         + pandas
         + flask
         + selenium
-        + pytest
-      - SQL
+      - SQL and RDBMS (DB2)
       - Docker
       - Blue Prism
       - JavaScript
